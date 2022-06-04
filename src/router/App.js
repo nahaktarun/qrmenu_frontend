@@ -3,6 +3,7 @@ import { ToastContainer } from "react-toastify";
 import React from "react";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
+import Places from "../pages/Places";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           </Route>
           <Route exact path="/login">
             <Login />
+          </Route>
+          <Route exact path="/places">
+            <Places />
           </Route>
         </Switch>
       </BrowserRouter>
